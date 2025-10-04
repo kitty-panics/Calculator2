@@ -38,6 +38,7 @@
         layout="@layout/advanced_pad"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="@dimen/layout_advanced_pad_ratio"
         app:layout_constraintStart_toStartOf="parent"
