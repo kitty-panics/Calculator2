@@ -1060,9 +1060,6 @@ public class Calculator extends AppCompatActivity
         } else if (itemId == R.id.menu_fraction) {
             displayFraction();
             return true;
-        } else if (itemId == R.id.menu_licenses) {
-            startActivity(new Intent(this, Licenses.class));
-            return true;
         }
         return super.onOptionsItemSelected(item);
     }
